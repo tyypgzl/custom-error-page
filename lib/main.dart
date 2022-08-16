@@ -16,9 +16,9 @@ class App extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       debugShowMaterialGrid: false,
       builder: (BuildContext context, Widget? widget) {
-        ErrorWidget.builder = (FlutterErrorDetails errorDetails) {
+       /* ErrorWidget.builder = (FlutterErrorDetails errorDetails) {
           return ErrorPage(errorDetails: errorDetails);
-        };
+        };*/
         return widget!;
       },
     );
